@@ -11,7 +11,7 @@ Instructivo sobre la contsrucción, actualización y la utilización de el harwa
 * #### Aumento de pines conectados a Esp32 de 3 a 13 en total:
   * Impllementacion de pines negativos y positivos para sensores externos
   * Implementacion de pines de logica (D4, RX2, TX2, D5, D18 y D19)
-  * Posibilidad de conectar sensores y dispositivos, al reprogramar con ([Arduino IDE](https://www.arduino.cc/en/software/))
+  * Posibilidad de conectar sensores y dispositivos, al  ser reprogramado
 * #### Mejora en visibilidad de las luces de comunicación de la Esp32
 
 ### Materiales necesarios para el proyecto
@@ -36,6 +36,18 @@ Instructivo sobre la contsrucción, actualización y la utilización de el harwa
 
 ### Uso del dispositivo
 
-#### 
+#### Instalación de software
+
+Para utilizar el dispositivo WLED 2.0, el usuario deberá escojer entre las siguientes 2 opciones de sofware:
+
+* En el caso de usar WLED (sin necesidad de programar) utilice [Este tutorial](https://github.com/exploratec-udd/wled-udd)
+
+* En el caso de querer programar el dispositivo manualmente, se recomienda utilizar ([Arduino IDE](https://www.arduino.cc/en/software/)) 
+
+  $$\color{red}\Huge{\textsf{¡Considerar!}}$$
+
+  Programar el dispositivo requiere conocimiento en el idioma de programacion C++ y los pines que pueden ser utilizados son los mencionados anteriormente, en conjunto con el pin dedicado a los leds (D2).
 
 
+
+>documentado por [Sofía Pérez Gutiérrez](https://github.com/ItsPeku) 2026
