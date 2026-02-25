@@ -2,7 +2,7 @@
 
 Instructivo sobre la contsrucción, actualización y la utilización de el harware del dispositivo WLED para Diseño de espacios y objetos de la Universidad del Desarrollo.
 
-<img title="Caja_WLED_2.0" alt="foto del dispositivo encendido" src="/imagenes/CajaEncendida.jpeg" style="width : 600px;">
+<img title="Caja_WLED_2.0" alt="foto del dispositivo encendido" src="https://github.com/ItsPeku/wled-udd/blob/patch-2/wled-udd-v02/imagenes/CajaEncendida.jpg" style="width : 600px;">
 
 ### Mejoras del proyecto
 
@@ -34,9 +34,9 @@ Instructivo sobre la contsrucción, actualización y la utilización de el harwa
 * 8 Pernos M3 6mm
 * Filamento de impresión 3d
 
-### Uso del dispositivo
+## Uso del dispositivo
 
-#### Instalación de software
+### Instalación de software
 
 Para utilizar el dispositivo WLED 2.0, el usuario deberá escojer entre las siguientes 2 opciones de sofware:
 
@@ -48,16 +48,18 @@ Para utilizar el dispositivo WLED 2.0, el usuario deberá escojer entre las sigu
 
     Programar el dispositivo requiere conocimiento en el idioma de programacion C++ y los pines que pueden ser utilizados son los mencionados anteriormente, en conjunto con el pin dedicado a los leds (D2).
 
-#### Uso del hardware
+### Uso del hardware
 
 Para utilizar los Sockets de conección de este dispositivo es necesario tener un desatornillador de paleta mediano, se recomienda trenzar la punta de los cables antes de insertarlos.
 
 |<!-- -->|<!-- -->|
  |:---:|:---:|
  |Uso del destornillador|Trenzado de cable|
- |![Uso del destornillador](/imagenes/desatornillador.jpeg)|![Trenzado de cable](/imagenes/cable.jpeg)|
+ |![Uso del destornillador](https://github.com/ItsPeku/wled-udd/blob/patch-2/wled-udd-v02/imagenes/desatornillador.jpg)|![Trenzado de cable](https://github.com/ItsPeku/wled-udd/blob/patch-2/wled-udd-v02/imagenes/cable.jpg)|
 
-# Los sockets agrupados en 3 están dedicados al control de las luces led, y el socket del medio está conectado al pin logico D2 de a ESP32
+ Los sockets agrupados en 3 están dedicados al control de las luces led, y el socket del medio está conectado al pin logico D2 de a ESP32, en cambio, los sockets logicos extras se encuentran agrupados de a seis, con la designación de cada uno siendo (de izquierda a derecha mirando de frente los sockets) D4, RX2, TX2, D5, D18 y D19. Por ultimo, del mismo lado de los sockets logicos se encuentran 2 pares de conecciones, siendo una negativa y la otra positiva.
+
+ 
 
 
 >documentado por [Sofía Pérez Gutiérrez](https://github.com/ItsPeku) 2026
