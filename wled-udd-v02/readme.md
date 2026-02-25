@@ -2,15 +2,15 @@
 
 Instructivo sobre la contsrucción, actualización y la utilización de el harware del dispositivo WLED para Diseño de espacios y objetos de la Universidad del Desarrollo.
 
-<img title="Caja_WLED_2.0" alt="foto del dispositivo encendido" src="/img/CajaEncendida.jpeg" style="width : 600px;">
+<img title="Caja_WLED_2.0" alt="foto del dispositivo encendido" src="/imagenes/CajaEncendida.jpeg" style="width : 600px;">
 
 ### Mejoras del proyecto
 
 * #### Rediseño de carcasa para la electronica
 * #### Implementación de electronica integrada
-* #### Aumento de pines conectados a Esp32 de 3 a 13 en total:
-  * Impllementacion de pines negativos y positivos para sensores externos
-  * Implementacion de pines de logica (D4, RX2, TX2, D5, D18 y D19)
+* #### Aumento de Sockets conectados a Esp32 de 3 a 13 en total:
+  * Impllementacion de Sockets negativos y positivos para sensores externos
+  * Implementacion de Sockets de logica (D4, RX2, TX2, D5, D18 y D19)
   * Posibilidad de conectar sensores y dispositivos, al  ser reprogramado
 * #### Mejora en visibilidad de las luces de comunicación de la Esp32
 
@@ -44,10 +44,20 @@ Para utilizar el dispositivo WLED 2.0, el usuario deberá escojer entre las sigu
 
 * En el caso de querer programar el dispositivo manualmente, se recomienda utilizar ([Arduino IDE](https://www.arduino.cc/en/software/)) 
 
-  $$\color{red}\Huge{\textsf{¡Considerar!}}$$
+    $$\color{red}\Huge{\textsf{¡Considerar!}}$$
 
-  Programar el dispositivo requiere conocimiento en el idioma de programacion C++ y los pines que pueden ser utilizados son los mencionados anteriormente, en conjunto con el pin dedicado a los leds (D2).
+    Programar el dispositivo requiere conocimiento en el idioma de programacion C++ y los pines que pueden ser utilizados son los mencionados anteriormente, en conjunto con el pin dedicado a los leds (D2).
 
+#### Uso del hardware
+
+Para utilizar los Sockets de conección de este dispositivo es necesario tener un desatornillador de paleta mediano, se recomienda trenzar la punta de los cables antes de insertarlos.
+
+|<!-- -->|<!-- -->|
+ |:---:|:---:|
+ |Uso del destornillador|Trenzado de cable|
+ |![Uso del destornillador](/imagenes/desatornillador.jpeg)|![Trenzado de cable](/imagenes/cable.jpeg)|
+
+# Los sockets agrupados en 3 están dedicados al control de las luces led, y el socket del medio está conectado al pin logico D2 de a ESP32
 
 
 >documentado por [Sofía Pérez Gutiérrez](https://github.com/ItsPeku) 2026
